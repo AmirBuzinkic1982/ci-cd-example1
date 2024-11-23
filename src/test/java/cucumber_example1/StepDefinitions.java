@@ -17,10 +17,15 @@ public class StepDefinitions {
    // int actual;
     Integer actual;         //for junit purpose
 
+
+
+
+
     @Given("I enter the text {string}")
     public void i_enter_the_text(String string) {
         input=string;
     }
+
 
     @When("I test given text for vowels")
     public void i_test_given_text_for_vowels() {
